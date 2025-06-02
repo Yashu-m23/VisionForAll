@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "Color Vision Simulator",
+  "version": "1.0",
+  "description": "Simulate and correct color blindness on any webpage.",
+  "permissions": ["scripting", "activeTab"],
+  "host_permissions": ["<all_urls>"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "icon.png"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "web_accessible_resources": [
+    {
+      "resources": ["filters/*.svg"],
+      "matches": ["<all_urls>"]
+    }
+  ]
+}
