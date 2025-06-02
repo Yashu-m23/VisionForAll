@@ -9,11 +9,12 @@ VisionForAll is a computer vision project aimed at detecting dominant colors fro
 - Real-time dominant color detection from webcam video frames.
 - Display of detected dominant color as a solid rectangle with RGB values.
 - Initial backend implementation using OpenCV and KMeans clustering.
+- Implemented color blindness simulation filters (e.g., protanopia, deuteranopia,tritanopia).
+- Chrome extension for color blindness simulation on web pages.
 
 ## What’s To Be Done
 
-- Implement color blindness simulation filters (e.g., protanopia, deuteranopia).
-- Develop a Chrome extension for color blindness accessibility on web pages.
+- Develop a Chrome extension for color blindness accessibility on web pages (recoloring of web pages using filters).
 - Improve UI/UX for better user interaction.
 - Add support for processing static images in addition to webcam feed.
 - Optimize performance and add error handling.
